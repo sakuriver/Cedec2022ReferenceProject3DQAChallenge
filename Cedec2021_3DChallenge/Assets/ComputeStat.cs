@@ -71,10 +71,10 @@ public class ComputeStat : MonoBehaviour
             lastInterval = timeNow;
         }
         fpsValueText.text = fps.ToString();
-       // setProfileParameter();
+        setProfileParameter();
     }
 
-   /* private void setProfileParameter()
+    private void setProfileParameter()
     {
         // Cameraのレンダリング処理を計測用にCustomSamplerを作ります。
         var customSampler = CustomSampler.Create("MainCamera.Render", true);
@@ -101,7 +101,7 @@ public class ComputeStat : MonoBehaviour
         renderingValueText.text = renderThreadTime.ToString();
         totalAllocatedValueText.text = (totalAllocated/1024/1024).ToString() + "メガバイト";
         addLogLine();
-    }*/
+    }
 
     private void addLogLine() {
 
