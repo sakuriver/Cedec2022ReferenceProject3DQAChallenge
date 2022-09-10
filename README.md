@@ -1,0 +1,2 @@
+# Cedec2022ReferenceProject3DQAChallenge
+CEDiL用_受託型開発会社が始める3Dアクションゲーム開発効率化のためのQA自動化へ道のりを個人的に訳してみる
